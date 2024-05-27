@@ -1,0 +1,39 @@
+
+.location-container {
+    padding-block: 7.5rem;
+}
+
+.location .location-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+    padding-inline: 1.5rem;
+    gap: 3rem;
+}
+
+.location .location-container .locations img {
+    margin-bottom: 3rem;
+}
+.location .location-container .locations h2 {
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    margin-bottom: 2.375rem;
+}
+
+.location .location-container .locations a {
+    color: var(--white);
+    background: var(--peach);
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: var(--heading3-font-size);
+    padding: 1.1rem;
+
+    border-radius: 0.4rem;
+    transition: 0.3s;
+}
+
+.location .location-container .locations a:hover {
+    background: var(--light-peach);
+}
